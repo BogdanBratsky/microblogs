@@ -1,0 +1,13 @@
+port: :8080
+
+database:
+  user: postgres
+  password: 2048
+  port: 5432
+  host: localhost
+  dbname: microblogs_db
+  sslmode: disable
+
+cors:
+  addres: http://localhost:8080
+  # servaddres:
